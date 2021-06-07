@@ -94,7 +94,7 @@ function minhaFuncao(a, b, c){
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
-console.log(minhaFuncao())
-console.log(minhaFuncao(10))
-console.log(minhaFuncao(10, 5))
-console.log(minhaFuncao(10, 5, 2))
+console.log(minhaFuncao()) // false
+console.log(minhaFuncao(10)) // 10
+console.log(minhaFuncao(10, 5)) // 15
+console.log(minhaFuncao(10, 5, 3)) // 5
